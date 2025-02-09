@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='ko'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>DawnGlow's 포트폴리오</title>
+    <script src='https://cdn.tailwindcss.com'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="sticky top-0 bg-opacity-90 backdrop-blur-lg">
+        <nav class="container max-w-4xl mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <h1 class="text-2xl font-bold">배준서</h1>
+                <p class="text-sm text-gray-500">백엔드 개발자</p>
+            </div>
+
+            <div class="flex items-center gap-x-6">
+                <a href="#home" class="hover:text-blue-500 transition-colors">홈</a>
+                <a href="#about" class="hover:text-blue-500 transition-colors">소개</a>
+                <a href="#skills" class="hover:text-blue-500 transition-colors">기술</a>
+                <a href="#projects" class="hover:text-blue-500 transition-colors">프로젝트</a>
+                <a href="#contact" class="hover:text-blue-500 transition-colors">연락처</a>
+                <button class="p-2 w-10 h-10 rounded-full bg-gray-200 focus:ring focus:ring-blue-500">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main class="container max-w-4xl mx-auto px-6 py-12">
+        <!-- home sectino -->
+        <section id="home" class="flex justify-between items-center mb-12">
+            <div class="shrink-0 mr-10">
+                <img class="w-56 h-56 rounded-full border-2 object-cover"
+                    src="https://api.dicebear.com/9.x/adventurer/svg?seed=Brian" alt="avatar" />
+            </div>
+            <div class="text-right">
+                <h1 class="text-4xl font-bold mb-2">DawnGlow</h1>
+                <p class="text-xl mb-4">백엔드 개발자</p>
+                <p class="text-gray-600">
+                    안녕하세요! Back-End 개발자 배준서 입니다.
+                    <br>
+                    Spring 프레임워크를 활용한 Web Application 개발을 주로 담당했습니다. 많은 코드를 구경하며 객체지향적인 Application 설계에 대해 고민하고 리팩토링 하는
+                    작업을 좋아합니다.
+                </p>
+            </div>
+
+        </section>
+        <!-- about section -->
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">소개</h2>
+            <div class="grid grid-cols-2 gap-6">
+                <article class="bg-gray-100 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">교육 및 활동</h3>
+                    <ul class="text-gray-800 leading-relaxed">
+                        <li>👉 2020~ 서울과학기술대학교 컴퓨터공학과 재학중</li>
+                        <li>👉 2024 서울과학기술대학교 컴퓨터공학과 동아리 연합 해커톤 1등</li>
+                        <li>👉 2024 우아한테크코스 백엔드 과정 프리코스 참여</li>
+                    </ul>
+                </article>
+                <article class="bg-gray-100 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold mb-4">자격증</h3>
+                    <ul class="text-gray-800 leading-relaxed">
+                        <li>👉 (예정) 2025 정보처리기사</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+
+        <section class="bg-blue-200 h-60">
+            <h2 class="text-3xl font-bold mb-6">기술</h2>
+        </section>
+        <section class="bg-cyan-200 h-60">
+            <h2 class="text-3xl font-bold mb-6">프로젝트</h2>
+        </section>
+        <section class="bg-green-200 h-60">
+            <h2 class="text-3xl font-bold mb-6">연락처</h2>
+        </section>
+    </main>
+    <footer class="bg-gray-400 w-full h-20"></footer>
+</body>
+
+</html>
